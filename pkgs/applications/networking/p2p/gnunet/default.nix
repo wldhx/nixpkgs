@@ -14,7 +14,7 @@ stdenv.mkDerivation rec {
   buildInputs = [
     adns curl gettext gmp gnutls libextractor libgcrypt libgnurl libidn
     libmicrohttpd libtool libunistring libxml2 makeWrapper ncurses
-    pkgconfig sqlite zlib libpulseaudio libopus libogg
+    pkgconfig sqlite zlib libpulseaudio libopus libogg libpsl gss openldap
   ];
 
   preConfigure = ''

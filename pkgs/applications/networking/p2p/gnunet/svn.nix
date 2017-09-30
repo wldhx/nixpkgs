@@ -19,6 +19,7 @@ stdenv.mkDerivation rec {
   buildInputs = [
     libextractor libmicrohttpd libgcrypt gmp curl libtool
     zlib adns sqlite libxml2 ncurses libidn
+    libgnurl libpsl gss openldap
     pkgconfig gettext libunistring makeWrapper
     autoconf automake
   ];
